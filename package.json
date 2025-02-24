@@ -32,7 +32,8 @@
     "url": "https://github.com/openedx/frontend-slot-footer/issues"
   },
   "dependencies": {
-    "@openedx/frontend-plugin-framework": "^1.5.0"
+    "@openedx/frontend-plugin-framework": "^1.5.0",
+    "core-js": "^3.40.0"
   },
   "peerDependencies": {
     "@edx/frontend-component-footer": "*",
@@ -40,8 +41,8 @@
     "react-dom": "^17.0.0 || ^18.0.0"
   },
   "devDependencies": {
-    "@edx/frontend-component-footer": "npm:@adamstankiewicz/openedx-frontend-component-footer@^14.2.2",
     "@edx/browserslist-config": "^1.1.1",
+    "@edx/frontend-component-footer": "npm:@adamstankiewicz/openedx-frontend-component-footer@^14.2.2",
     "@openedx/frontend-build": "^14.3.1",
     "@openedx/paragon": "^22.15.1",
     "glob": "7.2.3",

@@ -1,1 +1,1 @@
-// setupTest.js
+import 'core-js/stable';
