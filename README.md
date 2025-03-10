@@ -1,19 +1,25 @@
 # frontend-slot-footer
 
-This package provides a wrapped version of the footer using [Frontend Plugin Framework](https://github.com/openedx/frontend-plugin-framework).
+This package provides a wrapped version of the lms and studio footer using [Frontend Plugin Framework](https://github.com/openedx/frontend-plugin-framework).
 
-### Slot ID: `footer_slot`
+- ### LMS Footer Slot ID: `footer_slot`
+- ### Studio Footer Slot ID: `studio_footer_slot`
 
 ## Description
 
-This slot is used to replace/modify/hide the footer.
+The slots are used to replace/modify/hide the footer.
 
 ## Example
 
 The following `env.config.jsx` will replace the default footer.
 
-![Screenshot of Default Footer](./docs/images/default_footer.png)
+LMS:
 
+![Screenshot of Default LMS Footer](./docs/images/default_footer.png)
+
+Studio:
+
+![Screenshot of Default Studio Footer](./docs/images/default_studio_footer.png)
 with a simple custom footer
 
 ![Screenshot of Custom Footer](./docs/images/custom_footer.png)
