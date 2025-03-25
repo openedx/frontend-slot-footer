@@ -29,6 +29,7 @@ import { DIRECT_PLUGIN, PLUGIN_OPERATIONS } from '@openedx/frontend-plugin-frame
 
 const config = {
   pluginSlots: {
+    // For authoring MFE, replace footer_slot with studio_footer_slot
     footer_slot: {
       plugins: [
         {
