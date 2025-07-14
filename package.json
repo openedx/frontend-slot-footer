@@ -44,7 +44,7 @@
     "@edx/frontend-component-footer": "^14.2.0",
     "@openedx/frontend-build": "^14.3.1",
     "core-js": "3.44.0",
-    "glob": "7.2.3",
+    "glob": "11.0.3",
     "husky": "7.0.4",
     "jest": "30.0.4",
     "react": "^18.3.1",
